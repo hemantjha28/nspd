@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    url: jdbc:sqlserver://hemanttestserver1.database.windows.net:1433;database=HemantTestDB1;encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30;
+    username: hemanttestserver1
+    password: hem#71209
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+      dialect : org.hibernate.dialect.SQLServer2012Dialect
+
+server:
+  port: 9191
